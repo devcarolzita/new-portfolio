@@ -22,7 +22,7 @@ const Content = () => {
   return (
     <div className="content">
       <div className="content-text">
-        <h1>I AM <span>{newName}</span></h1>
+        <h1>I AM A <span>{newName}</span></h1>
         <button>Hire me</button>
         <button>Download CV</button>
       </div>

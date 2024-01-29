@@ -2,6 +2,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Layout from './components/Layout';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -10,9 +11,9 @@ function App() {
      <Routes>
       <Route path="/" element={ <Layout /> } >
         <Route index element={ <Home /> } />
+       <Route path="/projects" element={ <Projects /> } />
       </Route>
-      {/* <Route path="/profile" element={ <Profile/> } />
-      <Route path="/contact" element={ <Contact/> } /> */}
+      {/* <Route path="/contact" element={ <Contact/> } /> } */}
     </Routes>
     
     </>

@@ -1,0 +1,27 @@
+.projects-box {
+  background-image: url('../../assets/template.png');
+  height: 100vh;
+  border: 2px solid red;
+}
+.projects-box {
+  text-align: center;
+}
+
+.project {
+  width: 30%;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    background: rgba(57, 62, 70, 0.50);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.project img {
+  width: 70%;
+}
+
+.projects-box-itens {
+  display: flex;
+  place-content: center;
+  margin-top: 20px;
+}
