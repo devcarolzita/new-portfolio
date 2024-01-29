@@ -1,8 +1,8 @@
-import {React, useState} from 'react'
+import {useState} from 'react'
 import perfil from '../../assets/perfil.png';
 import './index.css'
 const Content = () => {
-  const [newName, setNewName] = useState();
+  const [newName, setNewName] = useState('');
   const [countNames, setCountNames] = useState(0);
 
   const handleNames = () => {
