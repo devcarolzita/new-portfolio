@@ -1,10 +1,28 @@
-import React from 'react'
-import perfil from '../../assets/perfil.png'
+import {React, useState} from 'react'
+import perfil from '../../assets/perfil.png';
+import './index.css'
 const Content = () => {
+  const [newName, setNewName] = useState();
+  const [countNames, setCountNames] = useState(0);
+
+  const handleNames = () => {
+    const names = ['DEV', 'CX', 'TEACHER'];
+    setNewName(names[countNames]);
+    if(countNames  >= names.length - 1){
+      setCountNames(0);
+      return;
+    }
+    setCountNames(countNames + 1);
+    
+  }
+
+  setTimeout(() => {
+    handleNames()
+  }, 1000);
   return (
     <div className="content">
       <div className="content-text">
-        <h1>Creative <span>Dev, Teacher and Cx</span></h1>
+        <h1>I AM <span>{newName}</span></h1>
         <button>Hire me</button>
         <button>Download CV</button>
       </div>

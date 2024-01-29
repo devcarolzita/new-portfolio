@@ -5,3 +5,11 @@
   padding: 10px 30px;
   justify-content: space-between;
 }
+
+.content-text h1 {
+  text-transform: uppercase;
+}
+
+.content-text span {
+  color: var(--turquoise)
+}

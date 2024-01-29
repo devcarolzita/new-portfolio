@@ -7,7 +7,7 @@ const Header = () => {
       <p>logo</p>
      <nav className="nav-bar-content">
       <ul>
-        <Link to="/coffees">
+        <Link to="/">
           <li>Home</li>
         </Link>
         <li>About me</li>
