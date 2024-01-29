@@ -1,9 +1,16 @@
-import React from 'react'
+import './index.css';
 
 const Header = () => {
   return (
-    <div>
-      <p>Teste</p>
+    <div className="nav-bar">
+      <p>logo</p>
+     <nav className="nav-bar-content">
+      <ul>
+        <li>Home</li>
+        <li>About me</li>
+        <li>Contact</li>
+      </ul>
+     </nav>
     </div>
   )
 }
