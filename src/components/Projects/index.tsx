@@ -1,5 +1,4 @@
 import './index.css';
-import password from '../../assets/password-manager.png'
 import data from '../../data/data';
 import { useState } from 'react';
 import { DataElements } from '../../types/type';

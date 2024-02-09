@@ -3,7 +3,6 @@ const data = [
     nameProject: 'Password Manager',
     type: 'web',
     tech: ['TS', 'REACT', 'HOOKS'],
-    img: './assets/password-manager.png'
   },
   {
     nameProject: 'Initial Logic',
