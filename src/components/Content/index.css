@@ -1,8 +1,7 @@
 .content {
   display: flex;
   align-items: center;
-  border: 2px solid;
-  padding: 10px 30px;
+  padding: 10px 60px;
   justify-content: space-between;
 }
 
@@ -10,6 +9,8 @@
   text-transform: uppercase;
 }
 
-.content-text span {
-  color: var(--turquoise)
+.content-text p {
+  color: var(--turquoise);
+  font-size: 6rem;
 }
+

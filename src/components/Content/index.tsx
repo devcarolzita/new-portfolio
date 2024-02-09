@@ -22,8 +22,9 @@ const Content = () => {
   return (
     <div className="content">
       <div className="content-text">
-        <h1>I AM A <span>{newName}</span></h1>
-        <button>Hire me</button>
+        <h1>I AM A </h1>
+        <p >{newName}</p>
+        <button style={{backgroundColor: 'rgba(0, 173, 181, 1)'}}>Hire me</button>
         <button>Download CV</button>
       </div>
       <div className="content-img">

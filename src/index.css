@@ -49,10 +49,11 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--turquoise);
+ 
   cursor: pointer;
   transition: border-color 0.25s;
   margin-right: 20px;
+  margin-top: 20px;
 }
 button:hover {
   border-color: var(--black);
