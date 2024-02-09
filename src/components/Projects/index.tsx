@@ -9,7 +9,8 @@ export const Projects = () => {
     console.log('teste');
     
     if(type === 'All'){
-      return true
+      setTypeData(data);
+      return;
     }
     setTypeData(data.filter((element) => element.type === type)) 
     console.log(type);
@@ -17,6 +18,7 @@ export const Projects = () => {
     
   }
   console.log(typeData);
+  console.log('data', data);
   
 
   return (
